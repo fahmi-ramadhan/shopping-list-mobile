@@ -21,7 +21,9 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.indigo,
         title: const Text(
+          style: TextStyle(color: Colors.white),
           'Shopping List',
         ),
       ),
